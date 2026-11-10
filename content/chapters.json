@@ -1,0 +1,119 @@
+{
+  "site": {
+    "title": "臺灣常用藥物講義",
+    "subtitle": "依藥物類別整理的臨床用藥複習筆記",
+    "author": "Lan"
+  },
+  "chapters": [
+    {
+      "id": "01",
+      "slug": "autonomic",
+      "title": "臺灣常用自律神經藥物講義",
+      "short": "自律神經",
+      "summary": "受體速覽、擬交感與抗膽鹼藥、神經肌肉阻斷劑與逆轉劑。",
+      "status": "published",
+      "file": "chapters/01-autonomic.md",
+      "updated": "2026-09-28"
+    },
+    {
+      "id": "02",
+      "slug": "cardiovascular",
+      "title": "臺灣常用心血管藥物講義",
+      "short": "心血管",
+      "summary": "降血壓、心衰竭四大支柱、抗心律不整、抗心絞痛與降血脂。",
+      "status": "planned",
+      "updated": "2026-09-27"
+    },
+    {
+      "id": "03",
+      "slug": "autacoids",
+      "title": "臺灣常用自泌素與平滑肌藥物講義",
+      "short": "自泌素與平滑肌",
+      "summary": "組織胺、血清素、前列腺素與子宮、平滑肌相關藥物。",
+      "status": "planned",
+      "updated": "2026-10-12"
+    },
+    {
+      "id": "04",
+      "slug": "cns",
+      "title": "臺灣常用中樞神經系統藥物講義",
+      "short": "中樞神經",
+      "summary": "鎮靜安眠、抗憂鬱、抗精神病、抗癲癇、帕金森與鴉片類。",
+      "status": "planned",
+      "updated": "2026-10-03"
+    },
+    {
+      "id": "05",
+      "slug": "blood-inflammation",
+      "title": "臺灣常用血液、發炎與痛風藥物講義",
+      "short": "血液、發炎與痛風",
+      "summary": "抗凝血、抗血小板、NSAIDs、類固醇與痛風用藥。",
+      "status": "planned",
+      "updated": "2026-10-09"
+    },
+    {
+      "id": "06",
+      "slug": "gastrointestinal",
+      "title": "臺灣常用消化系統藥物講義",
+      "short": "消化系統",
+      "summary": "制酸與 PPI、止吐、止瀉、瀉劑與腸道用藥。",
+      "status": "planned",
+      "updated": "2026-10-18"
+    },
+    {
+      "id": "07",
+      "slug": "respiratory",
+      "title": "臺灣常用呼吸系統藥物講義",
+      "short": "呼吸系統",
+      "summary": "支氣管擴張劑、吸入型類固醇、氣喘與 COPD 階梯治療、止咳化痰。",
+      "status": "published",
+      "file": "chapters/07-respiratory.md",
+      "updated": "2026-11-10"
+    },
+    {
+      "id": "08",
+      "slug": "urinary",
+      "title": "臺灣常用泌尿系統藥物講義",
+      "short": "泌尿系統",
+      "summary": "利尿劑、攝護腺肥大、膀胱過動與高血鉀處置。",
+      "status": "planned",
+      "updated": "2026-10-20"
+    },
+    {
+      "id": "09",
+      "slug": "endocrine",
+      "title": "臺灣常用內分泌與代謝藥物講義",
+      "short": "內分泌與代謝",
+      "summary": "降血糖藥、胰島素、甲狀腺、骨質疏鬆與性荷爾蒙。",
+      "status": "planned",
+      "updated": "2026-10-22"
+    },
+    {
+      "id": "10",
+      "slug": "immunology",
+      "title": "臺灣常用免疫與過敏藥物講義",
+      "short": "免疫與過敏",
+      "summary": "抗組織胺、免疫抑制劑與生物製劑。",
+      "status": "planned",
+      "updated": "2026-10-24"
+    },
+    {
+      "id": "11",
+      "slug": "antibacterial",
+      "title": "臺灣常用抗細菌藥物講義",
+      "short": "抗感染 I：抗細菌",
+      "summary": "β-內醯胺類、巨環類、胺基糖苷類、Fluoroquinolone 等。",
+      "status": "planned",
+      "updated": "2026-10-26"
+    },
+    {
+      "id": "12",
+      "slug": "antimicrobial-other",
+      "title": "臺灣常用抗病毒、真菌、寄生蟲藥物與疫苗講義",
+      "short": "抗感染 II：病毒、真菌、寄生蟲、疫苗",
+      "summary": "流感、皰疹、肝炎、HIV 用藥，抗真菌、抗寄生蟲與暴露後處置。",
+      "status": "planned",
+      "updated": "2026-10-28"
+    }
+  ]
+}
