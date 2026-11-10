@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>臺灣常用藥物講義</title>
+  <meta name="description" content="依藥物類別整理的臺灣臨床常用藥物複習講義：學名、臺灣商品名、機轉與臨床重點。">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect x='4' y='11' width='24' height='10' rx='5' fill='%232f7d6d'/%3E%3Crect x='16' y='11' width='12' height='10' rx='5' fill='%23e7efe9'/%3E%3Crect x='4' y='11' width='24' height='10' rx='5' fill='none' stroke='%231f5a4e' stroke-width='1.5'/%3E%3C/svg%3E">
+</head>
+<body>
+  <a class="skip" href="#main">跳到主要內容</a>
+
+  <header class="topbar">
+    <button class="icon-btn menu-btn" id="menuBtn" aria-label="開啟章節選單" aria-expanded="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <a class="brand" href="#/">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true">
+        <rect x="3" y="10" width="26" height="12" rx="6" class="pill-a"/>
+        <path d="M16 10h7a6 6 0 0 1 0 12h-7z" class="pill-b"/>
+      </svg>
+      <span>臺灣常用藥物講義</span>
+    </a>
+    <form class="search" id="searchForm" role="search">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="M16 16l4.5 4.5"/></svg>
+      <input id="searchInput" type="search" placeholder="藥名速查：學名或商品名" aria-label="藥名速查" autocomplete="off">
+    </form>
+    <button class="icon-btn" id="themeBtn" aria-label="切換深淺色">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z"/></svg>
+    </button>
+  </header>
+
+  <div class="layout">
+    <nav class="sidebar" id="sidebar" aria-label="章節">
+      <div class="sidebar-head">章節</div>
+      <ol class="chapter-list" id="chapterList"></ol>
+    </nav>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <main id="main" tabindex="-1">
+      <div id="view" class="view" aria-live="polite"></div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <p>本網站內容僅供學習與複習使用，不構成醫療建議。實際用藥以醫師處方與最新仿單為準。</p>
+    <p class="footer-meta">內容以 Markdown 撰寫，撰寫規則見 <a href="#/rules">AGENTS.md</a></p>
+  </footer>
+
+  <script src="assets/vendor/marked.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>
